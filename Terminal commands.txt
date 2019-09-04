@@ -1,0 +1,14 @@
+# Instalar React Native globalmente
+npm i -g react-native-cli
+
+# Iniciar novo projeto
+react-native init  nome_do_projeto
+
+# Listar emuladores disponíveis
+emulator -list-avds
+
+# Iniciar emulador (Padão daqui)
+emulator -no-snapshot -avd Pixel3
+
+# Buildar para o emulador
+react-native run-android
